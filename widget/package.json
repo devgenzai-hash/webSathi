@@ -1,0 +1,25 @@
+{
+  "name": "@makewebsiteaiready/chatbot-widget",
+  "version": "1.0.0",
+  "description": "Embeddable AI chatbot widget - plug and play for any website",
+  "main": "dist/chatbot-widget.js",
+  "module": "dist/chatbot-widget.esm.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "clean": "rimraf dist"
+  },
+  "keywords": ["chatbot", "ai", "widget", "embeddable", "rag"],
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.21.0",
+    "rimraf": "^6.0.0",
+    "typescript": "^5.5.0",
+    "tslib": "^2.7.0"
+  }
+}
